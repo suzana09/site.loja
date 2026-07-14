@@ -1,0 +1,132 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff9e6;
+    color: #333;
+}
+
+
+header {
+    background-color: #f4c542;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.menu {
+    list-style: none;
+    margin-top: 15px;
+}
+
+.menu li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: #5c4300;
+}
+
+
+main {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+main h2 {
+    margin-bottom: 10px;
+    color: #d49b00;
+}
+
+/* Produtos */
+#produtos {
+    padding: 30px;
+}
+
+#produtos h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #d49b00;
+}
+
+.produtos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+/* Card */
+.card {
+    width: 250px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    padding: 15px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin-bottom: 10px;
+}
+
+.preco {
+    font-size: 20px;
+    font-weight: bold;
+    color: #d49b00;
+}
+
+button {
+    background-color: #f4c542;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #d49b00;
+}
+
+/* Rodapé */
+footer {
+    background-color: #f4c542;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 5px 0;
+}
